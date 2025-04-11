@@ -1,0 +1,7 @@
+Model,Precision_Diff,Recall_Diff
+DecisionTree,0.137,0.167
+MLP,0.154,0.146
+NaiveBayes,0.178,0.15
+RandomForest,0.2,0.229
+SVM,0.221,0.125
+XGBoost,0.192,0.062
