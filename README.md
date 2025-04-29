@@ -1,20 +1,6 @@
 # Author Identification using Text Mining and Machine Learning
 
-This project aims to classify texts based on their authorship using traditional ML models and deep learning approaches (BERT). The dataset consists of multiple authors and their respective documents.
-
-## Folder Structure
-
-- `data/raw/dataset_authorship/`: Original dataset
-- `data/processed/`: Cleaned and labeled data
-- `src/`: Source code for data processing, feature extraction, and modeling
-- `notebooks/`: Jupyter notebooks for EDA, modeling, and evaluation
-
-Natürlich! Hier ist die komplette README mit dem ergänzten **„Getting Started“-Teil**, fertig formatiert in Markdown – einfach kopieren und in deine `README.md` einfügen:
-
-````markdown
-# Author Identification using Text Mining and Machine Learning
-
-This project aims to classify texts based on their authorship using traditional ML models and deep learning approaches (BERT). The dataset consists of multiple authors and their respective documents.
+This project aims to classify texts based on their authorship using traditional ML models and deep learning approaches (BERT). The dataset consists of multiple authors and their respective documents. The Python version used for this project is 3.12.9
 
 ## Folder Structure
 
@@ -36,6 +22,7 @@ Ensure that you are in the **project root directory**, then activate the virtual
 ```bash
 ./venv/Scripts/activate
 ```
+
 ````
 
 > This will enable the Python environment with all required dependencies.
@@ -72,3 +59,4 @@ Use the same activated virtual environment to run the Jupyter notebooks in the `
   3. `03_*.ipynb`
 
 Each notebook builds on the previous one, and together they perform the complete pipeline: preprocessing, modeling, evaluation and visualization.
+````
