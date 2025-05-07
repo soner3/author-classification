@@ -13,21 +13,31 @@ This project aims to classify texts based on their authorship using traditional 
 
 Follow the steps below to set up and run the author identification project.
 
-### 1. Activate the Virtual Environment
+### 1. Prepare the dataset
 
-Ensure that you are in the **project root directory**, then activate the virtual environment:
+Open the ZIP dataset_authorship.zip and put the folder dataset_authorship in the folder ./data/raw/. The folder must have the name `dataset_authorship` and it must be in the raw folder of the data directory otherwise the project will not find the dataset
+
+### 2. Create and Activate the Virtual Environment
+
+Ensure that you are in the **project root directory**, then create activate the virtual environment with the following commands:
 
 **On Windows:**
+
+```bash
+python -m venv venv
+```
 
 ```bash
 ./venv/Scripts/activate
 ```
 
-````
+```bash
+pip install -r requirements.txt
+```
 
-> This will enable the Python environment with all required dependencies.
+> This will create and enable the Python environment with all required dependencies.
 
-### 2. Run Tests
+### 3. Run Tests
 
 With the environment still activated, execute the following command to run all unit tests:
 
@@ -37,7 +47,7 @@ pytest
 
 > 🧪 This ensures that all modules are working as expected before proceeding.
 
-### 3. Execute the Notebooks
+### 4. Execute the Notebooks
 
 Use the same activated virtual environment to run the Jupyter notebooks in the `notebooks/` folder.
 
@@ -59,4 +69,3 @@ Use the same activated virtual environment to run the Jupyter notebooks in the `
   3. `03_*.ipynb`
 
 Each notebook builds on the previous one, and together they perform the complete pipeline: preprocessing, modeling, evaluation and visualization.
-````

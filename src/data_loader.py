@@ -4,7 +4,6 @@ from sklearn.preprocessing import LabelEncoder
 from typing import Tuple, Optional
 from logger import get_logger
 
-# Setup logger (verwende __name__ für Modul-spezifisches Logging)
 logger = get_logger(__name__)
 
 
